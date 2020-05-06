@@ -15,6 +15,7 @@ public class HelloControllerTest3 {
 	@Autowired
 	private TestRestTemplate restTemplate;
 	
+	
 	@Test
 	public void testStatusOk1() {
 		HelloResponse actual = this.restTemplate.getForObject("/hello3/status", HelloResponse.class);

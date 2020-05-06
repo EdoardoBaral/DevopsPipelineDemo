@@ -11,7 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import it.corso.esempio.pojo.HelloResponse;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class HelloControllerTest2 {
+public class HelloController2Test {
 
 	@Autowired
 	private TestRestTemplate restTemplate;
